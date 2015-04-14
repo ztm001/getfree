@@ -1,0 +1,550 @@
+/*Style sheet for Get Free Landing page
+Author: ZTM*/
+
+
+/*CSS Reset =============================*/
+
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+/*=======================================*/
+
+
+.clearfix:after {
+		content:".";
+		display:block;
+		height: 0;
+		clear:both;
+		visibility:hidden;
+}
+
+
+/*Font: font-family: 'Signika', sans-serif;
+Normal 400
+Bold 700
+*/
+
+/*
+Color Scheme
+
+#282B2D Dark Grey
+#464646 Light Grey
+#FFFF66 Soft Yellow
+#54746B shady green
+*/
+
+
+
+
+/*=======================================================================
+Header and Navigation
+=======================================================================*/
+
+
+
+/*=======================================================================
+Wrapper 
+=======================================================================*/
+body {
+	font-family: 'Signika', sans-serif;
+}
+
+
+
+
+/*=======================================================================
+top section
+=======================================================================*/
+
+.top {
+		max-width: 100%;
+		background: url("images/forrest.jpg") no-repeat center center; 
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		padding: 4em 0 150px 0;
+		margin: 0 auto;
+		text-align: left;
+}
+
+.topcontainer {
+		max-width: 960px;
+		margin: 15% auto 5% auto;		
+}
+
+.maintext {
+		max-width: 60%;
+		margin: 0 auto;
+		padding-top: 10%;
+		text-shadow: 3px 3px 3px #000;
+}
+
+h2  {
+		font-size: 2.2em;
+		font-weight: 700;
+		color: #ffffff;
+		padding: 20px 0;
+		text-align: center;
+}
+
+
+
+
+
+
+/*=======================================================================
+why section
+=======================================================================*/
+
+
+
+
+.whycontainer {
+		max-width: 960px;
+		margin: 5% auto 5% auto;		
+}
+
+h3 {
+		font-size: 1.5em;
+		font-weight: 300;
+		letter-spacing: 5px;
+		text-align: center;
+		padding: 5% 0 6% 0;
+		color: #282B2D;
+} /*for all h3 headings*/
+
+
+.whycontainer p {
+		text-align: left;
+		font-size: 1.2em;
+		padding: 3% 5%;
+		max-width: 80%;
+		margin: 0 auto;	
+		letter-spacing: 1px;
+		color: #282B2D;
+}
+
+
+.whycontainer p.bordergrey {
+		border-bottom: thin solid #D9D9D9;
+		margin-bottom: 7%;
+		padding-bottom: 5%;
+}
+
+.whycontainer i {
+		margin: 0 auto;	
+		text-align: center;
+		display: block;
+		
+}
+
+
+
+.whydivider {
+		max-width: 100%;
+		padding: 7% 0;
+		background: url("images/powerblack.jpg") fixed center center; 
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================================================================
+middle section
+=======================================================================*/
+
+
+.middle {
+		width: 100%;
+		background: url("images/tongariro1.jpg") no-repeat center center; 
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+}
+
+.middlecontainer {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 50px 0;
+}
+
+ a.bulblink {
+ 		list-style: none;
+ 		text-decoration: none;
+ }
+
+
+.topleft,
+.bottomleft {
+		width: 49%;
+		float: left;
+		text-align: right;
+}
+
+.topright,
+.bottomright {
+		width: 49%;
+		float: right;
+}
+
+.bulbtopleft,
+.bulbbottomleft,
+.bulbtopright,
+.bulbbottomright { 
+		padding: 10px;
+		max-width: 50%;
+		height: auto;
+}
+
+.bulbtopleft,
+.bulbbottomleft {
+		width: 100%;
+		float: right;
+		clear: none;
+    	clear: both;
+}
+
+.bulbtopright,
+.bulbbottomright {
+		width: 100%;
+		float: left;
+		clear: none;
+    	clear: both;
+}
+
+.bulblink:hover {
+		cursor: pointer;
+}
+
+.bulblink {
+		fill: white;
+
+}
+
+.bulblink:hover {
+		fill: #FFFF66;
+}
+
+.bulbtext {
+		font-family: 'Signika', sans-serif;
+		font-weight: 700;
+}
+
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+
+
+
+
+
+
+
+/*=======================================================================
+bottom section
+=======================================================================*/
+
+.contact {
+		max-width: 100%;
+		background: url("images/wind.jpg") no-repeat center center; 
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		padding: 4em 0 100px 0;
+		margin: 0 auto;
+		text-align: left;
+}
+
+.contactcontainer {
+		max-width: 960px;
+		margin: 0 auto 500px auto;
+		
+}
+
+.contactcontainer p {
+		text-align: center;
+		color: white;
+		font-size: 1em;		
+}
+
+.p-form-margin {
+		margin-bottom: 300px;
+}
+
+
+
+
+
+/*=======================================================================
+Form css
+=======================================================================*/
+
+
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: 'Signika', sans-serif;
+  	font-weight:500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #FFFF66;
+	outline: none;
+  	padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Signika', sans-serif;
+	float:left;
+	width: 100%;
+	border: black solid 3px;
+	border-radius: 5px;
+	cursor:pointer;
+	background-color: white;
+	color:black;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  	margin-top:-4px;
+  	font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: #FFFF66;
+	color: black;
+}
+	
+/*=======================================================================
+Footer
+=======================================================================*/
+.follow-social {
+		text-align: center;
+		padding: 3% 0 10px 0;
+		font-size: 1.5em;
+		background-color: #54746B;
+		color: #f7f7f7;
+}
+
+.follow-social a{
+		color: black;
+}
+
+.follow-social a:hover{
+		color: #FFFF66;
+}
+
+
+footer {
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+		padding: 0 0 80px 0;
+		background-color: #54746B;
+		display: block;
+}
+
+footer p{
+		text-align: center;
+		color: #f7f7f7;
+		font-size: 1em;
+		letter-spacing: 3px;
+		max-width: 960px;
+		border-top: thin solid #f7f7f7;
+		margin: 0 auto;
+		padding-top: 15px;
+}
+
+
+/*=======================================================================
+media query for desktop tablet and desktop
+=======================================================================*/
+
+@media only screen and (min-width : 580px) {
+		
+		
+		h2 {
+			font-size: 3.5em;
+		}
+
+		h3 {
+			font-size: 2.5em;
+		}
+
+		h1 {
+			font-size: 3em;
+			letter-spacing: 15px;
+		}
+
+		header {
+			padding: 5px 0;
+		}
+		.whycontainer p {
+			font-size: 1.6em;
+		}
+
+		.joinbulb {
+		width: 80px;
+		top: 65px;
+		}
+
+		.contactcontainer p {
+		text-align: center;
+		color: white;
+		font-size: 1.5em;		
+		}
+		footer p{
+		font-size: 1.5em;
+		}
+} 
+
+@media only screen and (max-width: 580px) {
+
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
