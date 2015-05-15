@@ -1,5 +1,11 @@
-/*Style sheet for Get Free Landing page
-Author: ZTM*/
+/*
+
+Style sheet for Get Free landing page
+Author: Zac Maguire
+Mobile First Design 
+
+*/
+
 
 
 /*CSS Reset =============================*/
@@ -7,6 +13,38 @@ Author: ZTM*/
 html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
 
 /*=======================================*/
+
+
+
+
+/*
+
+Font: font-family: 'Signika', sans-serif;
+Normal 400
+Bold 700
+
+Color Scheme
+#282B2D Dark Grey
+#464646 Light Grey
+#FFFF66 Soft Yellow
+#54746B shady green
+
+*/
+
+
+
+
+/*=======================================================================
+Global Styles
+=======================================================================*/
+
+html,
+body {
+		font-family: 'Signika', sans-serif;
+		height: 100%;
+
+}
+
 
 
 .clearfix:after {
@@ -18,37 +56,10 @@ html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del
 }
 
 
-/*Font: font-family: 'Signika', sans-serif;
-Normal 400
-Bold 700
-*/
-
-/*
-Color Scheme
-
-#282B2D Dark Grey
-#464646 Light Grey
-#FFFF66 Soft Yellow
-#54746B shady green
-*/
-
-
-
 
 /*=======================================================================
 Header and Navigation
 =======================================================================*/
-
-
-
-/*=======================================================================
-Wrapper 
-=======================================================================*/
-body {
-	font-family: 'Signika', sans-serif;
-}
-
-
 
 
 /*=======================================================================
@@ -56,26 +67,21 @@ top section
 =======================================================================*/
 
 .top {
-		max-width: 100%;
-		background: url("images/forrest.jpg") no-repeat center center; 
+		width: 100%;
+		height: 100%;
+		background: url("images/forrest.jpg") no-repeat center center;
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
   		background-size: cover;
-		padding: 4em 0 150px 0;
-		margin: 0 auto;
-		text-align: left;
+		
 }
 
-.topcontainer {
-		max-width: 960px;
-		margin: 15% auto 5% auto;		
-}
 
 .maintext {
-		max-width: 60%;
+		max-width: 600px;
 		margin: 0 auto;
-		padding-top: 10%;
+		padding-top: 50%;
 		text-shadow: 3px 3px 3px #000;
 }
 
@@ -477,12 +483,13 @@ footer p{
 
 
 /*=======================================================================
-media query for desktop tablet and desktop
+Media query for tablet and desktop
 =======================================================================*/
 
 @media only screen and (min-width : 580px) {
 		
-		
+		/*Global*/
+
 		h2 {
 			font-size: 3.5em;
 		}
@@ -496,9 +503,12 @@ media query for desktop tablet and desktop
 			letter-spacing: 15px;
 		}
 
-		header {
-			padding: 5px 0;
+		/*Top Section*/
+
+		.maintext {
+			padding-top: 20%;
 		}
+
 		.whycontainer p {
 			font-size: 1.6em;
 		}
