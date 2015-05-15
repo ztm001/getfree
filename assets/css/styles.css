@@ -62,6 +62,8 @@ Header and Navigation
 =======================================================================*/
 
 
+
+
 /*=======================================================================
 top section
 =======================================================================*/
@@ -69,7 +71,7 @@ top section
 .top {
 		width: 100%;
 		height: 100%;
-		background: url("images/forrest.jpg") no-repeat center center;
+		background: url("../../images/forrest.jpg") no-repeat center center;
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -81,7 +83,7 @@ top section
 .maintext {
 		max-width: 600px;
 		margin: 0 auto;
-		padding-top: 50%;
+		padding-top: 70%;
 		text-shadow: 3px 3px 3px #000;
 }
 
@@ -149,7 +151,7 @@ h3 {
 .whydivider {
 		max-width: 100%;
 		padding: 7% 0;
-		background: url("images/powerblack.jpg") fixed center center; 
+		background: url("../../images/powerblack.jpg") fixed center center; 
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -174,7 +176,7 @@ middle section
 
 .middle {
 		width: 100%;
-		background: url("images/tongariro1.jpg") no-repeat center center; 
+		background: url("../../images/tongariro1.jpg") no-repeat center center; 
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -309,7 +311,7 @@ bottom section
 
 .contact {
 		max-width: 100%;
-		background: url("images/wind.jpg") no-repeat center center; 
+		background: url("../../images/wind.jpg") no-repeat center center; 
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -486,7 +488,7 @@ footer p{
 Media query for tablet and desktop
 =======================================================================*/
 
-@media only screen and (min-width : 580px) {
+@media only screen and (min-width: 40em) {
 		
 		/*Global*/
 
@@ -503,7 +505,7 @@ Media query for tablet and desktop
 			letter-spacing: 15px;
 		}
 
-		/*Top Section*/
+		/*Content*/
 
 		.maintext {
 			padding-top: 20%;
@@ -528,7 +530,7 @@ Media query for tablet and desktop
 		}
 } 
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 40em) {
 
 	#form-div{
 		left: 3%;

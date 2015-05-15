@@ -15,10 +15,11 @@
 	<![endif]-->
 	
 
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/nav-styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Signika:300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="responsive-nav/responsive-nav.css">
+
 		
 
 </head>
@@ -336,18 +337,28 @@
 
 
 
-<script src="jquery-1.11.2.js"></script>
-<script src="responsive-nav/responsive-nav.js"></script>
-<script src="main.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="assets/js/responsive-nav.min.js"></script>
 
 <script>
 
-	(function() {
 	  
-	  	var nav = responsiveNav(".nav-collapse");
-
-
-	})();
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        label: "Menu",                    // String: Label for the navigation toggle
+        insert: "after",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+    
 		
 </script>
 
