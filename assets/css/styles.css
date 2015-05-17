@@ -83,7 +83,7 @@ top section
 .maintext {
 		max-width: 600px;
 		position: absolute;
-		bottom: 0;
+		bottom: 40px;
 		left: 0;
 		right: 0;
 		margin: 0 auto;
@@ -106,33 +106,31 @@ h2  {
 /*=======================================================================
 why section
 =======================================================================*/
+.wrapper{
 
+}
 
 
 
 .whycontainer {
 		max-width: 960px;
-		margin: 5% auto 5% auto;		
+		margin: 0 auto;		
 }
 
 h3 {
-		font-size: 1.5em;
-		font-weight: 300;
-		letter-spacing: 5px;
+		font-size: 2em;
+		font-weight: 400;
+		color: #111520;
+		padding: 15% 0 30px 0;
 		text-align: center;
-		padding: 5% 0 6% 0;
-		color: #282B2D;
+
 } /*for all h3 headings*/
 
 
 .whycontainer p {
 		text-align: left;
-		font-size: 1.2em;
-		padding: 3% 5%;
-		max-width: 80%;
-		margin: 0 auto;	
-		letter-spacing: 1px;
-		color: #282B2D;
+		font-size: 1.2em;	
+		color: #111520;
 }
 
 
@@ -146,20 +144,56 @@ h3 {
 		margin: 0 auto;	
 		text-align: center;
 		display: block;
+		padding-bottom: 30px;
+		color: #111520;
 		
 }
+
+/*_______________________________*/
 
 
 
 .whydivider {
 		max-width: 100%;
-		padding: 7% 0;
-		background: url("../../images/powerblack.jpg") fixed center center; 
- 		-webkit-background-size: cover;
- 		-moz-background-size: cover;
-  		-o-background-size: cover;
-  		background-size: cover;
+		background-color: #fff;
 }
+
+.whydivider h4 {
+		
+		color: #111520;
+		font-size: 1.5em;
+		font-weight: 700;
+}
+
+.learn-wrap {
+		width: 90%;
+		margin: 0 auto;	
+}
+
+
+
+.learn {
+	width: 100%;
+	margin: 1%;
+	float: left;
+	display: inline-block;
+	height:;
+	background: url(../../images/night.jpg);
+	overflow: hidden;
+}
+
+
+
+
+.learn h4 {
+		font-size: 2em;
+		padding: 20% 0;
+		text-align: center;
+		
+}
+
+
+
 
 
 
@@ -179,17 +213,19 @@ middle section
 
 .middle {
 		width: 100%;
-		background: url("../../images/tongariro1.jpg") no-repeat center center; 
- 		-webkit-background-size: cover;
- 		-moz-background-size: cover;
-  		-o-background-size: cover;
-  		background-size: cover;
+		background-color: pink;
+		padding-bottom: 30px;
+		
 }
 
 .middlecontainer {
 		max-width: 960px;
 		margin: 0 auto;
-		padding: 50px 0;
+		padding: 0;
+}
+
+.middlecontainer h3 {
+		padding: 10% 0 30px 0;
 }
 
  a.bulblink {
@@ -314,12 +350,13 @@ bottom section
 
 .contact {
 		max-width: 100%;
-		background: url("../../images/wind.jpg") no-repeat center center; 
+		/*background: url("../../images/nightfull.jpg") no-repeat center center; */
+		background-color: #111520;
  		-webkit-background-size: cover;
  		-moz-background-size: cover;
   		-o-background-size: cover;
   		background-size: cover;
-		padding: 4em 0 100px 0;
+		padding: 4em 0 40px 0;
 		margin: 0 auto;
 		text-align: left;
 }
@@ -327,6 +364,12 @@ bottom section
 .contactcontainer {
 		max-width: 960px;
 		margin: 0 auto 500px auto;
+		
+}
+
+.contactcontainer h3 {
+		color: #fff;
+		padding: 10% 0 30px 0;
 		
 }
 
@@ -349,15 +392,10 @@ Form css
 =======================================================================*/
 
 
-
-#feedback-page{
-	text-align:center;
-}
-
 #form-main{
 	width:100%;
 	float:left;
-	padding-top:0px;
+	padding-top:100px;
 }
 
 #form-div {
@@ -385,8 +423,9 @@ Form css
 	border-radius: 5px;
 	line-height: 22px;
 	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
+	padding: 13px 0;
 	margin-bottom: 10px;
+	text-align: center;
 	width:100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -398,9 +437,10 @@ Form css
 .feedback-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #FFFF66;
+	border: 3px solid #fec961;
 	outline: none;
-  	padding: 13px 13px 13px 54px;
+  	padding: 13px 0;
+  	text-align: center;
 }
 
 .focused{
@@ -409,39 +449,34 @@ Form css
 }
 
 
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
+
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
 	background-color:white;
 }
 
-#button-blue{
+#button{
 	font-family: 'Signika', sans-serif;
-	float:left;
+	float: left;
 	width: 100%;
-	border: black solid 3px;
+	border: #111520 solid 3px;
 	border-radius: 5px;
-	cursor:pointer;
+	cursor: pointer;
 	background-color: white;
-	color:black;
-	font-size:24px;
-	padding-top:22px;
-	padding-bottom:22px;
+	color: #111520;
+	font-size: 18px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-  	margin-top:-4px;
-  	font-weight:700;
+  	margin-top: -4px;
+  	font-weight: 400;
 }
 
-#button-blue:hover{
-	background-color: #FFFF66;
+#button:hover{
+	background-color: #fec961;
 	color: black;
 }
 	
@@ -450,18 +485,19 @@ Footer
 =======================================================================*/
 .follow-social {
 		text-align: center;
-		padding: 3% 0 10px 0;
+		padding: 3% 0 40px 0;
 		font-size: 1.5em;
-		background-color: #54746B;
+		background-color: #111520;
 		color: #f7f7f7;
+
 }
 
-.follow-social a{
-		color: black;
+.follow-social a { 
+		color: #fff;
 }
 
 .follow-social a:hover{
-		color: #FFFF66;
+		color: #fec961;
 }
 
 
@@ -471,7 +507,7 @@ footer {
 		left: 0;
 		margin: 0 auto;
 		padding: 0 0 80px 0;
-		background-color: #54746B;
+		background-color: #111520;
 		display: block;
 }
 
@@ -511,29 +547,39 @@ Media query for tablet and desktop
 			letter-spacing: 15px;
 		}
 
-		/*Content*/
+		/*Top*/
 
 		.maintext {
 			max-width: 800px;
 		
 		}
 
+		/*why*/
+
 		.whycontainer p {
 			font-size: 1.6em;
 		}
 
+		/*values*/
+
+		.learn {
+			width: 30.9%;
+		}
+
+
+
 		.joinbulb {
-		width: 80px;
-		top: 65px;
+			width: 80px;
+			top: 65px;
 		}
 
 		.contactcontainer p {
-		text-align: center;
-		color: white;
-		font-size: 1.5em;		
+			text-align: center;
+			color: white;
+			font-size: 1.5em;		
 		}
 		footer p{
-		font-size: 1.5em;
+			font-size: 1.5em;
 		}
 } 
 

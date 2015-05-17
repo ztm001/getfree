@@ -69,7 +69,7 @@
     width: 24.7%;
     margin: 0 auto;
     float: left;
-    border-right: solid 1px #cccccc; 
+    border-right: solid 1px black; 
   }
   .nav-collapse li:last-child {
     border-right: none; 
