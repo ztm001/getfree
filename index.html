@@ -32,19 +32,19 @@
 ************************************************************************************************************** --> 
 	
 
-	<section class="top">
+	<section id="home" class="top">
 
 		<nav class="nav-collapse">
 		  <ul>
-		    <li><a href="#">Home</a></li>
-		    <li><a href="#">About</a></li>
-		    <li><a href="#">Projects</a></li>
-		    <li><a href="#">Contact</a></li>
+		    <li><a href="#home">Home</a></li>
+		    <li><a href="#about">About</a></li>
+		    <li><a href="#ideas">Ideas</a></li>
+		    <li><a href="#joinlink">Connect</a></li>
 		  </ul>
 		</nav>
 
 		<div class="maintext">				
-			<h2>Welcome to Get Free</h2>
+			<h1>Welcome to Get Free</h1>
 		</div>
 					
 	</section>
@@ -57,14 +57,14 @@
 									Body Section / Why Content Section
 ************************************************************************************************************** --> 
 
-	<div class="wrapper">
+	<div id="about" class="wrapper">
 
-			<section class="why clearfix">
+			<section class="about clearfix">
 				
 
-					<div class="whycontainer clearfix">	
+					<div class="aboutcontainer clearfix">	
 
-						<h3>About</h3>
+						<h3>Get Free Is A Campaign For Everyone <span style="white-space: nowrap;">To Use</span></h3>
 						
 						<i class="fa fa-globe fa-4x"></i>
 						<!-- <p>Get Free is campaign for sustainable energy. It is a meeting point where we can all come together to share information, promote sustainable energy and protest the reckless expansion of fossil fuel extraction in New Zealand.</p>
@@ -85,20 +85,27 @@
 					</div> <!-- closing whycontainer -->
 
 				
-					<div class="whydivider clearfix">
+					<div class="aboutdivider clearfix">
 		
 						
 
 						<div class="learn-wrap clearfix">							
-							<div class="learn">
-								<h4>Our Values</h4>
-							</div>							
-							<div class="learn">
-								<h4>Be Informed</h4>
-							</div>
-							<div class="learn">
-								<h4>Take Action</h4>
-							</div>
+							<a href="http://www.getfree.org.nz/" target="blank">
+								<div class="learn-about">
+									<h4>About</h4>
+								</div>
+							</a>
+
+							<a href="http://www.getfree.org.nz/groups/" target="blank">
+								<div class="learn-inform">
+									<h4>Be Informed</h4>
+								</div>
+							</a>
+							<a href="http://www.getfree.org.nz/get-active-and-get-free/" target="blank">
+								<div class="learn-action">
+									<h4>Take Action</h4>
+								</div>
+							</a>
 						</div>
 					</div>
 				
@@ -129,16 +136,16 @@
 
 
 	
-			<section class="middle">
+			<section id="ideas" class="middle">
 				<div class="middlecontainer clearfix">
-				<h3>Lets Think Together</h3>
+				<h3 id="middle-id">Lets Think Together</h3>
 										
 					<div class="topleft clearfix">
 
 						<div class="bulbtopleft hvr-float-shadow">
 
 						
-							 	<a href="http://www.google.co.nz" class="bulblink" target="_blank">
+							 	<a href="http://www.google.co.nz" id="clean-pure" class="bulblink" target="_blank">
 
 							 		
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -162,11 +169,7 @@
 											
 
 									</g>
-									</svg>
-
-									
-
-									
+									</svg>	
 								</a>
 							
 				
@@ -177,7 +180,7 @@
 					<div class="topright clearfix">
 						<div class="bulbtopright hvr-float-shadow">
 
-							<a href="http://www.getfree.org.nz" class="bulblink" target="_blank">
+							<a href="http://www.getfree.org.nz" id="free-inde" class="bulblink" target="_blank">
 
 					
 								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -211,7 +214,7 @@
 					<div class="bottomleft clearfix">
 						<div class="bulbbottomleft hvr-float-shadow">
 									
-							<a href="http://www.getfree.org.nz" class="bulblink" target="_blank">
+							<a href="http://www.getfree.org.nz" id="integrity"class="bulblink" target="_blank">
 
 									
 									
@@ -246,7 +249,7 @@
 					<div class="bottomright clearfix">
 						<div class="bulbbottomright hvr-float-shadow">
 									
-							<a href="http://www.getfree.org.nz" class="bulblink" target="_blank">
+							<a href="http://www.getfree.org.nz" id="prosperity" class="bulblink" target="_blank">
 	
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 										 viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
@@ -314,7 +317,7 @@
 									<!-- end -->
 
 								      <p class="email">
-								        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="For our newsletter enter your e-mail address..." />
+								        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="For our newsletter enter your e-mail..." />
 								      </p>
 							      
 								      <div class="submit">
@@ -353,6 +356,7 @@
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="assets/js/responsive-nav.min.js"></script>
+<script src="assets/js/custom.js"></script>
 
 <script>
 

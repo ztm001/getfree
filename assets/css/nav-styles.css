@@ -53,16 +53,7 @@
   transition: box-shadow 0.1s linear;
 }
 
-.nav-collapse li:hover { 
-}
 
-.nav-collapse li:active {
-  
-}
-
-.nav-collapse li.active {
-  
-}
 
 @media (min-width: 40em) {
   .nav-collapse li {
