@@ -322,23 +322,19 @@ middle section
     	clear: both;
 }
 
+.bulbtopleft img,
+.bulbtopright img,
+.bulbbottomleft img,
+.bulbbottomright img  {
+	max-width: 100%;
+	height: auto;
+}
+
 .bulblink:hover {
 		cursor: pointer;
 }
 
-.bulblink {
-		fill: white;
 
-}
-
-.bulblink:hover {
-		fill: #FFFF66;
-}
-
-.bulbtext {
-		font-family: 'Signika', sans-serif;
-		font-weight: 700;
-}
 
 /* Float Shadow */
 .hvr-float-shadow {
@@ -385,6 +381,8 @@ middle section
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
+
 
 
 
@@ -516,8 +514,8 @@ input:focus, textarea:focus {
 	background-color: white;
 	color: #111520;
 	font-size: 18px;
-	padding-top: 13px;
-	padding-bottom: 13px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
